@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "bookmark_management",
-    "version": "0.0.0"
+    "productName": "hamster",
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -31,7 +31,7 @@
     "windows": [
       {
         "label": "customization",
-        "title": "bookmark_management",
+        "title": "hamster",
         "width": 800,
         "height": 600,
         "minWidth": 800,
@@ -46,7 +46,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.bookmark.management",
+      "identifier": "com.hamster",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",

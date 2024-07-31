@@ -171,18 +171,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bookmark_management"
-version = "0.0.0"
-dependencies = [
- "rusqlite",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "window-shadows",
-]
-
-[[package]]
 name = "brotli"
 version = "3.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1206,6 +1194,18 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 1.0.109",
+]
+
+[[package]]
+name = "hamster"
+version = "1.0.0"
+dependencies = [
+ "rusqlite",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "window-shadows",
 ]
 
 [[package]]
