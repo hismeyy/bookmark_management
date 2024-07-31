@@ -1,0 +1,140 @@
+body {
+  cursor: default;
+}
+
+.view-box {
+  height: 100%;
+  padding: 10px;
+}
+
+.high-level-box {
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #00adb5;
+  border: 0px solid #dcdcdc;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #868dff;
+}
+
+.input {
+  padding: 5px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  width: 150px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-right: 10px;
+}
+
+.input:focus {
+  border-color: #00adb5;
+  box-shadow: 0 0 5px rgba(7, 193, 96, 0.3);
+  outline: none;
+}
+
+.select {
+  padding: 5px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  width: 150px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-right: 10px;
+  outline: none;
+  box-shadow: none;
+}
+
+.select:focus {
+  border-color: #dcdcdc;
+  box-shadow: none;
+}
+
+.select::-webkit-scrollbar {
+  width: 0px;
+}
+
+.select::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+
+.select::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+}
+
+.select::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF;
+}
+
+
+/* 最新表格样式 */
+.info-level-box {
+  height: 85vh;
+  overflow-y: auto;
+}
+
+.info-level-box::-webkit-scrollbar {
+  width: 3px;
+}
+
+.info-level-box::-webkit-scrollbar-track {
+  background: #ededed;
+}
+
+.info-level-box::-webkit-scrollbar-thumb {
+  background: #95e1d3;
+}
+
+.info-level-box::-webkit-scrollbar-thumb:hover {
+  background: #95e1d3;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 2fr;
+  font-size: 14px;
+}
+
+.grid-header {
+  background-color: #a8d8ea;
+  font-weight: bold;
+  padding: 10px;
+  color: #000;
+  position: sticky;
+  top: 0px;
+}
+
+.grid-row {
+  display: contents; /* Ensures children take up the grid space directly */
+}
+
+.grid-item {
+  padding: 5px;
+  border-bottom: 0.1px solid rgb(235, 235, 235);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 35px;
+}
+
+.grid-row:hover .grid-item {
+  background-color: #f0f0f0;
+}
