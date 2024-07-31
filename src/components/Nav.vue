@@ -28,7 +28,7 @@ onMounted(() => {
 .titlebar {
     width: 100%;
     height: 30px;
-    background: #fff;
+    background: var(--body-bgc);
     user-select: none;
     display: flex;
     justify-content: flex-end;

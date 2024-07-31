@@ -4,7 +4,7 @@ use std::sync::{Arc, Mutex, OnceLock};
 use crate::database_utils::{self, Type, WebInfo};
 
 // 设置全局变量
-const TABLE_NAME: &str = "D:/Project/rust/bookmark_management/web_data_db.db";
+const TABLE_NAME: &str = "D:/Project/rust/hamster/web_data_db.db";
 // const TABLE_NAME: &str = "./web_data_db.db";
 
 // 设置全局链接数据库

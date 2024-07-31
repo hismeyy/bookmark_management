@@ -11,7 +11,6 @@ node_modules
 dist
 dist-ssr
 *.local
-*.db
 
 # Editor directories and files
 .vscode/*
@@ -24,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
+web_data_db.db
+web_data_db.db
+web_data_db.db
