@@ -1,3 +1,10 @@
+:root{
+  --sidebar-bgc: #E2DAD6;
+  --body-bgc: #F5EDED;
+  --button-bgc: #7AB2B2;
+  --button-bgc-hover: #4D869C;
+}
+
 body {
   cursor: default;
 }
@@ -16,7 +23,7 @@ body {
   padding: 8px 10px;
   font-size: 14px;
   color: #fff;
-  background-color: #00adb5;
+  background-color: var(--button-bgc);
   border: 0px solid #dcdcdc;
   border-radius: 4px;
   text-align: center;
@@ -26,7 +33,7 @@ body {
 }
 
 .button:hover {
-  background-color: #868dff;
+  background-color: var(--button-bgc-hover);
 }
 
 .input {
@@ -114,16 +121,16 @@ body {
 }
 
 .grid-header {
-  background-color: #a8d8ea;
+  background-color: #C7B7A3;
   font-weight: bold;
   padding: 10px;
-  color: #000;
+  color: #fff;
   position: sticky;
   top: 0px;
 }
 
 .grid-row {
-  display: contents; /* Ensures children take up the grid space directly */
+  display: contents;
 }
 
 .grid-item {
